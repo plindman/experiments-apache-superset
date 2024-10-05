@@ -23,3 +23,7 @@ docker compose -f docker-compose-non-dev.yml up
 # Interactive development environment
 docker compose up
 ```
+
+## Acknowledgements
+
+- [Apache Superset](https://superset.apache.org/) - For data exploration and visualization.
