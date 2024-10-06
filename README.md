@@ -4,16 +4,19 @@
 
 https://superset.apache.org/docs/installation/docker-compose/
 
-https://github.com/apache/superset/releases
-
 ``` bash
 git clone --depth=1  https://github.com/apache/superset.git
 ```
 ## Run as part of the experiments
 
 ``` bash
+# Edit run.sh if you want change the release version.
+# Set the Superset version - https://github.com/apache/superset/releases
+# export TAG=4.0.2
+
 chmod +x run.sh # make sure the script is executable
-./run.sh
+
+./run.sh # Run the script to start the database
 ```
 
 ## Run locally
