@@ -46,4 +46,4 @@ done
 
 echo "Superset containers started successfully!"
 echo "Superset should be accessible at localhost:8088"
-
+echo ""
